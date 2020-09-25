@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Safal Jaiswal Final Project</title>
+	<link rel="stylesheet" href="C:\Users\Safal\Documents\CSS3\CSS_form.css">
+  <script src="JS_form.js">
+</script>
+</head>
+<body>
+		<header>
+        <h1>Safal Jaiswal</h1>
+		<nav>
+        <a href="http://www.justanhobby.byethost6.com/">One</a>
+		<a href="http://www.intro-webdesign.com/">Two</a>
+		<a href="https://byet.host/">Three</a>
+     	<a href="https://www.linkedin.com/in/safal-jaiswal-476a48161/">LinkedIn</a>
+	   </nav>
+       </header>
+    <section class="half">
+        <h2>Achivements</h2>
+        <p>Progress in this Course(100%) <meter min="1" max="100" value="100"></meter><br>
+        Progress in Specialization capstone(20%) <meter min="1" max="100" value="20"></meter><br>
+        Progress in Life Goals(30%) <meter min="1" max="100" value="30"></meter></p>
+    </section>
+    <section class="whole">
+        <h2>More About Me</h2>
+        <details> <summary>My Childhood</summary>I grew up in Madhya Pradesh,India and went to college there too.</details>
+    </section>
+      <footer>
+            <p><img src = "http://www.intro-webdesign.com/images/newlogo.png" alt = "logo"/> This page was created by Safal Jaiswal &amp; Colleen van Lent.   To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a>.</p>
+      </footer>
+      <section class="one">
+      <form>
+    	<fieldset>
+<legend>Visitor Information</legend>
+<label for = 'name'> Name: </label>
+<input type='text' id= 'name' name='name'><br/>
+
+<label>Enter Email: <input type='email' id="email_addr" name='email1' ></label><br/>
+<label>Re-enter Email: <input type='email' id="email_repeat" name='email2' onchange="check()"></label><br/>
+
+<label for = 'birth'> DOB: </label>
+<input type='date' id= 'birth' name='birth'><br/>
+
+<label for ='radio'>Gender: </label><br/>
+<input type="radio" name="Gender" value="Male">Male<br/>
+<input type="radio" name="Gender" value="Female">Female<br/>
+
+
+<label for='checkbox'>Contact via: </label><br/>
+<input type='checkbox' name="Contact" value="Email">Contact me via Email<br/>
+<input type='checkbox' name="Contact" value="Phone">Contact me via Phone<br/>
+
+<label for="number">Number: </label>
+<input type="number" name="number"><br/>
+
+<label for="date">Date of visit: </label>
+<input type="date" name="date"><br/>
+<input type='submit' value="Submit" onclick="return check()" >
+</fieldset>
+</form>
+</section>
+</body>
+</html>
